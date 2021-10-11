@@ -4,11 +4,13 @@ import SideHeading from "./Component/Highlights/SideHeading";
 import Navbar from "./Component/Navbar/Navbar";
 
 function App() {
-  return <div>
-    <Navbar/>
-    <SideHeading/>
-    <Highlights/>
-  </div>;
+  return (
+    <div>
+      <Navbar />
+      <SideHeading />
+      <Highlights />
+    </div>
+  );
 }
 
 export default App;

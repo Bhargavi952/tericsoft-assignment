@@ -10,8 +10,8 @@ const card = ({ data }) => {
       <div className={styles.card_container_details}>
         <div className={styles.details}>
           <div className={styles.title}>
-            <p >{data.title}</p>
-            <p className={styles.time} >{data.time}</p>
+            <p>{data.title}</p>
+            <p className={styles.time}>{data.time}</p>
           </div>
           <button className={styles.btn}>{data.btn1}</button>
           &nbsp;&nbsp;

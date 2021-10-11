@@ -6,6 +6,7 @@ import {
 
 const init = {
   highlights: [],
+  isloading: false,
 };
 
 export const highLightsReducer = (state = init, { type, payload }) => {
@@ -13,19 +14,21 @@ export const highLightsReducer = (state = init, { type, payload }) => {
     case FETCHDATA_REQUEST: {
       return {
         ...state,
+        isloading: true,
       };
     }
     case FETCHDATA_SUCCESS: {
       return {
         ...state,
         highlights: payload,
+        isloading: false,
       };
     }
     case FETCHDATA_FAILURE: {
       return {
         ...state,
-
         payload,
+        isloading: false,
       };
     }
     default:
