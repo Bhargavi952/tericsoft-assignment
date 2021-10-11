@@ -20,13 +20,12 @@
     border: 0.5px solid rgb(34, 34, 34);
 }
 
-div>i {
+div>span>i {
     font-size: 40px;
 }
 
-
 @media screen and (max-width:620px) {
-    div>i {
+    div>span>i {
         font-size: 18px;
     }
     p {
@@ -43,8 +42,6 @@ div>i {
         display: none;
     }
 }
-
-
 
 .sub_container:hover {
     background-color: rgb(34, 34, 34);

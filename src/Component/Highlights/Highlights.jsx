@@ -18,7 +18,6 @@ const Highlights = () => {
         {data.highlights?.map((item) => {
           return <Card data={item} />;
         })}
-        {/* <Card/> */}
       </div>
     </>
   );

@@ -26,12 +26,14 @@ const fetchDataFailure = () => {
 const fetchData = () => async (dispatch) => {
   dispatch(fetchDataRequest());
   try {
-    let response = await axios.get(" http://localhost:3007/highlights");
+    let response = await axios.get(
+      "https://json-server-mocker-data.herokuapp.com/highlights"
+    );
     // console.log(response);
-    dispatch(fetchDataSuccess(response.data))
+    dispatch(fetchDataSuccess(response.data));
   } catch (error) {
     dispatch(fetchDataFailure);
   }
 };
 
-export {fetchData}
+export { fetchData };
