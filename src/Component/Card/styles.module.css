@@ -1,0 +1,37 @@
+.card_container {
+    width: 25%;
+    height: 400px;
+    position: relative;
+}
+
+.card_cont_details {
+    position: absolute;
+    width: 100%;
+    bottom: 10;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.details {
+    width: 95%;
+    margin: auto;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    background: rgba(194, 189, 189, 0.2);
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:620px) {
+    .card_container {
+        width: 95%;
+    }
+}

@@ -2,31 +2,27 @@
   "highlights": [
     {
       "id": 1,
-      "title": "",
-      "btn1": "",
-      "btn2": "",
+      "title": "DAY 1 OF BMX",
+      "time":"5:12",
+      "btn1": "HEATS",
+      "btn2": "HIGHLIGHTS",
       "img_url": "https://www.mural-wallpaper.com/wp-content/uploads/2020/12/UN-SP14.jpg"
     },
     {
       "id": 2,
-      "title": "",
-      "btn1": "",
-      "btn2": "",
-      "img_url": "https://i.pinimg.com/originals/db/57/8e/db578e97998d099f6a2e38de0e4bfee0.png"
+      "title": "DAY 2 OF BMX",
+      "time":"5:12",
+      "btn1": "HEATS",
+      "btn2": "MIXED",
+      "img_url": "https://wallpapercave.com/wp/wp4093435.jpg"
     },
     {
       "id": 3,
-      "title": "",
-      "btn1": "",
-      "btn2": "",
+      "title": "DAY 3 OF BMX",
+      "time":"5:12",
+      "btn1": "SEMI'S",
+      "btn2": "MIXED",
       "img_url": "https://c0.wallpaperflare.com/preview/902/565/90/selective-focus-photography-of-person-holding-gray-road-bike-on-road.jpg"
-    },
-    {
-      "id": 4,
-      "title": "",
-      "btn1": "",
-      "btn2": "",
-      "img_url": "https://wallpapercave.com/wp/wp4093435.jpg"
     }
   ]
 }

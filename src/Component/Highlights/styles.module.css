@@ -7,7 +7,32 @@
     gap:150px;
     color: #fff;
     border-bottom: 15px solid rgb(77, 76, 76);
+    width: 100%;
 }
 h5:hover{
     font-size: 16px ;
+}
+
+.highlights_container{
+    display: flex;
+    gap: 10px;
+    margin: 0 10px;
+    
+}
+.heading{
+    color: #fff;
+    border-bottom: 2px solid gray;
+    width: 150px;
+    font-weight: 400;
+    margin: 10px 10px;
+
+}
+
+@media screen and (max-width:620px) {
+    .highlights_container{
+        flex-direction: column;
+    } 
+    .sideHeading_container{
+        gap:30px
+}
 }
