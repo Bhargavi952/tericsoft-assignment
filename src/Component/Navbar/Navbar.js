@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import styles from "./styles.module.css";
-import data from "./NavData";
+import navData from "./NavData";
 
 class Navbar extends Component {
   render() {
     return (
       <div className={styles.nav_container}>
-        {data.map((item) => {
+        {navData.map((item) => {
           return (
             <div className={styles.sub_container}>
-              <span style={{ color: "gray" }}>
+              <span>
                 <i class={item.icon}></i>
               </span>
               <p>{item.title}</p>

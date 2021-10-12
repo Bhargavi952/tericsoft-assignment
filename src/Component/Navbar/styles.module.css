@@ -22,8 +22,12 @@
 
 div>span>i {
     font-size: 40px;
-}
+    color: gray;
 
+}
+p{
+    color: gray;
+}
 @media screen and (max-width:620px) {
     div>span>i {
         font-size: 18px;

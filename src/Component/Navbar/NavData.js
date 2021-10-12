@@ -1,4 +1,4 @@
-let data = [
+let navData = [
   {
     icon: "fa fa-star-o",
     title: "Featured",
@@ -37,4 +37,4 @@ let data = [
   },
 ];
 
-export default data;
+export default navData;
