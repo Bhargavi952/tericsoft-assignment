@@ -19,14 +19,13 @@ Start the server
 ```bash
   npm  start
 ```
-## View
+
 
 ### Deployed link:
 - https://tericsoft-highlights-application.netlify.app/
 
-## Heroku
 
-### Mock server:
+### Heroku mock server:
 - https://json-server-mocker-data.herokuapp.com/highlights
 
 
