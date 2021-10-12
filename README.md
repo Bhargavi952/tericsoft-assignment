@@ -37,10 +37,10 @@ Start the server
 ## Snapshots
 
 ### Desktop view
-![2021-10-11-16-44-15](https://user-images.githubusercontent.com/77036158/136781346-cf8d4277-3aaf-4619-ad90-280c5ff18aea.png)
+
+![2021-10-12-16-43-41](https://user-images.githubusercontent.com/77036158/136945694-6ba92bd2-7d32-41e8-b41c-4f201b20a50d.png)
 
 ### Mobile view
 
-![2021-10-12-16-38-33](https://user-images.githubusercontent.com/77036158/136945022-cad6ece0-c544-4d9b-bbc2-44d3bc79d4dc.png)
-
+![2021-10-12-16-41-35](https://user-images.githubusercontent.com/77036158/136945411-e48affde-ccaa-400b-8f06-7d284029e76c.png)
 
